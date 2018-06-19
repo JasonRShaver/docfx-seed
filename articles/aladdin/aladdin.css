@@ -1,0 +1,397 @@
+
+.aladdin-hook{
+    display: block;
+    padding-bottom:15px;
+    padding-top:15px;
+  }
+  
+  .question-button {
+    display: auto;
+    width: 170px;
+    padding-left: 5px;
+    background-color: white;
+    border: solid 0px white;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    margin-top: 8px;
+  }
+  
+  .question-button:hover {
+    text-decoration: none;
+    color: #666666;
+  }
+  
+  .question-icon {
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    background-size: 25px 25px;
+    cursor: pointer;
+  }
+  
+  .collapse-icon{
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    background-size: 25px 25px;
+    cursor: pointer;
+    color: #0050C5;
+  }
+  
+  .collapse-icon:hover {
+    color: #0050C5;
+  }
+  
+  .aladdin-content {
+    border-bottom: 1px dotted #C4C4C4;
+    margin-top: 11px;
+    background: rgba(0, 80, 197, 0.15);
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    display: none;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  
+  .aladdin-content-preview-holder {
+    display: table;
+    margin: 0 auto;
+  }
+  
+  .aladdin-answer-question-survey {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    color: #0078D7;
+    font-size: 12px;
+    border:1px solid #0078D7;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+  }
+  
+  .aladdin-answer-question-survey-response {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    color: black;
+    font-size: 12px;
+  }
+  
+  .aladdin-content-preview-block {
+    width: 152px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 8px #D2D2D2;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+  
+    display: table;
+    overflow: hidden;
+    
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;;
+    line-height: normal;
+    font-size: 15px;
+    color: #333333;
+  }
+  
+  .aladdin-content-preview-block:hover {
+    border: 1px solid rgb(143, 181, 233);
+    box-sizing: border-box;
+  }
+  
+  .aladdin-content-preview-text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1px;
+  }
+  
+  .aladdin-content-preview-text-holder {
+    max-height: 78px; 
+    width: 152px;  
+  }
+  
+  .aladdin-content-preview-text label {
+    cursor: pointer;
+  }
+  
+  .aladdin-content-preview-selected {
+    width: 152px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 8px #D2D2D2;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    cursor: default;
+  
+    display: table;
+    overflow: hidden;
+  
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;;
+    line-height: normal;
+    font-size: 15px;
+    color: #0C54C2;
+    border: 1px solid #0C54C2;
+    box-sizing: border-box;
+  }
+  
+  .aladdin-content-preview-selected label {
+    cursor: default;
+  }
+  
+  .aladdin-search-block-holder {
+    display: none;
+    padding-top: 11px;
+  }
+  
+  .aladdin-content-block-holder {
+    padding-top: 10px;
+    display: none;
+  }
+  
+  .aladdin-content-block {
+    box-shadow: 2px 2px 8px #D2D2D2;
+    width: 436px;
+    height: auto;
+    overflow:hidden;
+    margin: 0 auto;
+    background: #FFFFFF;
+  }
+  
+  .aladdin-info-card-text {
+    height: auto;
+    display: none;  
+  }
+  
+  .aladdin-content-block-text {
+    font-size: 15px;
+  }
+  
+  .aladdin-content-block-text-overflow {
+    height: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .aladdin-content-comment-title {
+    color:#0078D7;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bold;
+    padding-top: 15px;
+    width: 380px;
+  
+    margin-top: 0px; 
+    margin-left: 24px; 
+    font-size: 16px;
+  }
+  
+  .aladdin-content-comment-title-overflow {
+    height: 77px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .aladdin-content-comment-title-singleLine {
+    height: 25px;
+    text-align: center;
+  }
+  
+  .aladdin-search-box {
+    /* height of the search box */
+    height: 86px;
+  }
+  
+  .aladdin-content-block h3 {
+    color:#0078D7;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bold;
+    padding-top: 17px;
+    text-align: center;
+  
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .aladdin-content-block-controls {
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .aladdin-content-block a {
+    font-size: 10px;
+    color:#0078D7 !important;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 11px;
+  } 
+  
+  .aladdin-content-more-button {
+    background:none;
+    border:none;
+    color:rgb(0,120,215);
+    cursor: pointer;
+    font-size: 11px;
+    padding-left: 24px;
+    margin-top: -5px;
+  } 
+  
+  .aladdin-content-survey-button {
+    background:none;
+    border:none;
+    color:rgb(0,120,215);
+    cursor: pointer;
+    font-size: 11px;
+    padding-left: 5px;
+  } 
+  
+  .aladdin-content-survey-button-selected {
+    background:none;
+    border:none;
+    color:rgb(0,120,215);
+    font-size: 11px;
+    padding-left: 5px;
+    font-weight: bold;
+  }
+  
+  .aladdin-content-survey-button-unselected {
+    background:none;
+    border:none;
+    color:rgb(140, 142, 143);
+    font-size: 11px;
+    padding-left: 5px;
+  }
+  
+  .aladdin-content-block a:hover{
+    text-decoration: none;
+  } 
+  
+  .aladdin-content-block p {
+    color:#333;
+    padding:10px;
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .question-border{
+    border-top: dotted 1px #C4C4C4;
+    display:inline-block;
+    width:50%;
+  }
+  
+  .question-border-highlight{
+    border-top: dotted 1px #C4C4C4;
+  }
+  
+  .aladdin-content-preview-search-box {
+    padding-right: 22px;
+    padding-left: 5px;
+    width: 390px;
+    margin: 10px;
+  }
+  
+  .aladdin-content-preview-search-icon {
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 4px;
+    font-size: 12px;
+    display: none;
+  }
+  
+  .aladdin-content-close-icon {
+    float: right;
+    width: 18px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .aladdin-content-search-icon {
+    position: absolute;
+    margin-left: 408px;
+    margin-top: 11px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .aladdin-no-related-content-found {
+    text-align: center;
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    font-style: regular;
+    font-size: 15px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    height: 65px;
+  }
+  
+  .spinner {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    margin: 0 auto;
+  } 
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /*
+    fabric-icons
+  */
+  @font-face {
+    font-family: 'FabricMDL2Icons';
+    src: url('data:application/octet-stream;base64,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') format('truetype');  
+  }
+  
+  .ms-Icon {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: 'FabricMDL2Icons';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+  }
+  
+  .ms-Icon--ChevronDown:before { 
+    content: "\E70D"; 
+  }
+  
+  .ms-Icon--ChevronUp:before { 
+    content: "\E70E"; 
+  }
+  
+  .ms-Icon--Search:before { 
+    content: "\E721"; 
+  }
+  
+  .ms-Icon--ChromeClose:before { 
+    content: "\E8BB"; 
+  }

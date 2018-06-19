@@ -24,7 +24,7 @@
     ],
     "resource": [
       {
-        "files": [ "articles/images/**"]
+        "files": [ "articles/images/**", "articles/aladdin/**"]
       }
     ],
     "overwrite": "specs/*.md",
